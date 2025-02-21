@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Varela+Round&display=swap');
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+main .left,
+main .right {
+  height: 100%;
+  flex-basis: 50%;
+  border-radius: 0.7rem;
+}
+
+main .left {
+  background-color: #000000;
+  position: relative;
+}
+
+.left .code,
+.code pre,
+.code pre code {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  border-radius: 0.7rem;
+  background-color: #0c0c0c;
+}
+
+main .left .review {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  background-color: white;
+  color: rgba(0, 162, 100, 1);
+  padding: 0.5rem 2rem;
+  font-weight: 600;
+  font-size:large;
+  font-family: poppins;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 0.7rem;
+  letter-spacing: 0.05rem;
+  
+}
+
+
+
+
+
+
+
+main .right {
+  /* background-color: #343434; */
+  /* background-color: rgb(103, 101, 101);
+  color:rgba(0, 77, 47, 1) ; */
+  background-color: #000000;
+  color: rgba(0, 162, 100, 1);
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  overflow: auto;
+  font-family: poppins;
+}
